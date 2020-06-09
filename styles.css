@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap');
 
+/* ----------  NAVBAR --------- */
 #navigation_bar {
   background-color: #0b0b0b;
   height: auto;
@@ -7,6 +8,30 @@
   text-align: center;
   flex-direction: column;
 }
+
+#navigation_bar li {
+  list-style-type: none;
+  display: inline;
+}
+
+/* ----------  BACKGROUND IMAGE --------- */
+.index_background_container {
+  background-image: url("/images/clem-onojeghuo-9AEh9i-WPhI-unsplash.jpg");
+  /* Image source: url<https://unsplash.com/photos/9AEh9i-WPhI>, Photo by Clem Onojeghuo on Unsplash  */
+}
+.about_background_container {
+  background-image: url("/images/nathan-dumlao-KixfBEdyp64-unsplash.jpg");
+    /* Image source: url<https://unsplash.com/photos/KixfBEdyp64 >, Photo by Nathan Dumlao on Unsplash  */
+}
+.contact_background_container {
+  background-image: url("/images/brooke-cagle-8jp-6SjVibM-unsplash.jpg");
+    /* Image source: url<https://unsplash.com/photos/8jp-6SjVibM>, Photo by Brooke Cagle on Unsplash  */
+}
+.locations_background_container {
+  background-image: url("/images/vladimir-proskurovskiy-he7QnLQRB9g-unsplash.jpg");
+    /* Image source: url<https://unsplash.com/photos/he7QnLQRB9g>, Photo by Vladimir Proskurovskiy on Unsplash  */
+}
+
 
 @media (min-width: 320px) and (max-width: 480px) {
 
@@ -48,11 +73,6 @@
     display: inline-block;
   }
 
-  #navigation_bar li {
-    list-style-type: none;
-    display: inline;
-  }
-
   #navigation_bar li a {
     color: #f5f5f5;
     font-size: 16px;
@@ -64,6 +84,13 @@
   .on_this_page a {
     border-bottom: 3px solid #f5f5f5;
     font-weight: bold;
+  }
+
+  /* ----------  BACKGROUND IMAGE --------- */
+  .index_background_container, .about_background_container, .contact_background_container, .locations_background_container {
+    background-position: center center;
+    position: relative;
+    height: 400px;
   }
 
 }
