@@ -158,6 +158,24 @@ p {
   .about_article img {
     width: 100%;
   }
+
+  .location_article_header {
+    text-align: center;
+    color: #261D03;
+    margin: 4rem 0 4rem 0;
+  }
+
+  .address_container {
+    margin-bottom: 4rem;
+  }
+  .address_container h2 {
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+  .address_container p {
+    margin-top: -15px;
+  }
+
 }
 /* ----------  MOBILE LANDSCAPE --------- */
 @media (min-width: 481px) and (max-width: 767px) {
@@ -271,6 +289,29 @@ p {
   }
   .about_article img {
     width: 100%;
+  }
+
+  .location_article_header {
+    text-align: center;
+    color: #261D03;
+    margin: 4rem 0 4rem 0;
+  }
+
+  .address_container {
+    margin-bottom: 4rem;
+    width: 40%;
+    margin-right: 3rem;
+    float: left;
+  }
+  .address_container h2 {
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+  .address_container p {
+    margin-top: -15px;
+  }
+  .location_odd_section, .location_even_section {
+    overflow: hidden;
   }
 }
 /* ----------  TABLET --------- */
@@ -408,6 +449,31 @@ p {
   }
   .about_article img {
     width: 100%;
+  }
+
+  .location_article_header {
+    text-align: center;
+    color: #261D03;
+    margin: 5rem 0 5rem 0;
+    font-size: 2.5rem;
+  }
+
+  .address_container {
+    margin-bottom: 4rem;
+    width: 40%;
+    margin-right: 3rem;
+    float: left;
+  }
+  .address_container h2 {
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+  .address_container p {
+    margin-top: -15px;
+  }
+  .location_odd_section, .location_even_section {
+    overflow: hidden;
+    margin-left: 20vw;
   }
 
 }
@@ -549,6 +615,31 @@ p {
   }
   .about_article img {
     width: 100%;
+  }
+
+  .location_article_header {
+    text-align: center;
+    color: #261D03;
+    margin: 5rem 0 5rem 0;
+    font-size: 2.5rem;
+  }
+
+  .address_container {
+    margin-bottom: 4rem;
+    width: 40%;
+    margin-right: 3rem;
+    float: left;
+  }
+  .address_container h2 {
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+  .address_container p {
+    margin-top: -15px;
+  }
+  .location_odd_section, .location_even_section {
+    overflow: hidden;
+    margin-left: 20vw;
   }
   
 }
@@ -695,4 +786,28 @@ p {
     width: 100%;
   }
   
+  .location_article_header {
+    text-align: center;
+    color: #261D03;
+    margin: 5rem 0 5rem 0;
+    font-size: 2.5rem;
+  }
+
+  .address_container {
+    margin-bottom: 4rem;
+    width: 40%;
+    margin-right: 3rem;
+    float: left;
+  }
+  .address_container h2 {
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+  .address_container p {
+    margin-top: -15px;
+  }
+  .location_odd_section, .location_even_section {
+    overflow: hidden;
+    margin-left: 20vw;
+  }
 }
