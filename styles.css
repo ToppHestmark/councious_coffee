@@ -114,7 +114,7 @@ p {
     text-align: center;
     font-weight: 600;
     font-size: 3rem;
-    margin: 15vh 10vw 0 10vw;
+    margin: 15vh 10vw 15vh 10vw;
   }
 
   /* ----------  ARTICLES --------- */
@@ -150,6 +150,13 @@ p {
   }
   .odd_section img, .even_section img {
     max-width: 100%;
+  }
+
+  .about_section {
+    margin: 5rem 0 5rem 0;
+  }
+  .about_article img {
+    width: 100%;
   }
 }
 /* ----------  MOBILE LANDSCAPE --------- */
@@ -221,7 +228,7 @@ p {
     text-align: center;
     font-weight: 600;
     font-size: 3rem;
-    margin: 15vh 10vw 0 10vw;
+    margin: 15vh 10vw 15vh 10vw;
   }
   
   /* ----------  ARTICLES --------- */
@@ -257,6 +264,13 @@ p {
   }
   .odd_section img, .even_section img {
     max-width: 100%;
+  }
+
+  .about_section {
+    margin: 5rem 0 5rem 0;
+  }
+  .about_article img {
+    width: 100%;
   }
 }
 /* ----------  TABLET --------- */
@@ -326,7 +340,7 @@ p {
     text-align: center;
     font-weight: 600;
     font-size: 4rem;
-    margin: 20vh 10vw 0 10vw;
+    margin: 20vh 10vw 20vh 10vw;
   }
   
   /* ----------  ARTICLES --------- */
@@ -384,6 +398,16 @@ p {
     width: 50%;
     float: right;
     padding-top: 15vh;
+  }
+
+  .about_article {
+    margin: 2rem 15vw 5rem 15vw;
+  }
+  .about_section {
+    margin: 5rem 0 5rem 0;
+  }
+  .about_article img {
+    width: 100%;
   }
 
 }
@@ -459,7 +483,7 @@ p {
     text-align: center;
     font-weight: 600;
     font-size: 5rem;
-    margin: 16vh 10vw 0 10vw;
+    margin: 16vh 10vw 16vh 10vw;
   }
 
   /* ----------  ARTICLES --------- */
@@ -515,6 +539,16 @@ p {
     width: 50%;
     float: right;
     padding-top: 18vh;
+  }
+
+  .about_article {
+    margin: 2rem 20vw 5rem 20vw;
+  }
+  .about_section {
+    margin: 5rem 0 5rem 0;
+  }
+  .about_article img {
+    width: 100%;
   }
   
 }
@@ -593,7 +627,7 @@ p {
     text-align: center;
     font-weight: 600;
     font-size: 5rem;
-    margin: 16vh 10vw 0 10vw;
+    margin: 16vh 10vw 16vh 10vw;
   }
 
   /* ----------  ARTICLES --------- */
@@ -649,6 +683,16 @@ p {
     width: 50%;
     float: right;
     padding-top: 20vh;
+  }
+
+  .about_article {
+    margin: 2rem 22vw 5rem 22vw;
+  }
+  .about_section {
+    margin: 5rem 0 5rem 0;
+  }
+  .about_article img {
+    width: 100%;
   }
   
 }
