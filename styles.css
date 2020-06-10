@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap');
 
-h1 {
+h1, h2 {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #261D03;
+}
+.image_source {
+  font-size: x-small;
+  opacity: 80%;
+  margin-top: -1px;
 }
 /* ----------  NAVBAR --------- */
 #navigation_bar {
@@ -97,7 +106,7 @@ h1 {
     text-shadow: 1px 1px 2px black;
     text-align: center;
     font-weight: 500;
-    margin: 10vh 10vw 0 10vw;
+    margin: 10vh 10vw 10vh 10vw;
   }
   .pages_background_text {
     color: #f5f5f5;
@@ -108,6 +117,40 @@ h1 {
     margin: 15vh 10vw 0 10vw;
   }
 
+  /* ----------  ARTICLES --------- */
+  .header_text {
+    text-align: center;
+    margin-top: 10vh;
+    color: #261D03;
+    font-size: 3rem;
+  }
+  .keywords {
+    margin: 0 10vw 0 10vw;
+    padding-bottom: 5vh;
+    text-align: center;
+    border-bottom: 1px solid #261D03;
+  }
+  .article_header {
+    margin: 10vh 0 3vh 0;
+  }
+  main {
+    margin: 0 5vw 5vh 5vw;
+  }
+  .odd_section, .even_section {
+    margin-top: 5vh;
+  }
+  .odd_section p {
+    margin-bottom: 5vh;
+  }
+  .odd_section h2, .even_section h2 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 2.5rem;
+    margin: 20vh 0 10vh;
+  }
+  .odd_section img, .even_section img {
+    max-width: 100%;
+  }
 }
 /* ----------  MOBILE LANDSCAPE --------- */
 @media (min-width: 481px) and (max-width: 767px) {
@@ -170,7 +213,7 @@ h1 {
     text-shadow: 1px 1px 2px black;
     text-align: center;
     font-weight: 500;
-    margin: 10vh 15vw 0 15vw;
+    margin: 10vh 15vw 10vh 15vw;
   }
   .pages_background_text {
     color: #f5f5f5;
@@ -181,6 +224,40 @@ h1 {
     margin: 15vh 10vw 0 10vw;
   }
   
+  /* ----------  ARTICLES --------- */
+  .header_text {
+    text-align: center;
+    margin-top: 10vh;
+    color: #261D03;
+    font-size: 3rem;
+  }
+  .keywords {
+    margin: 0 15vw 0 15vw;
+    padding-bottom: 5vh;
+    text-align: center;
+    border-bottom: 1px solid #261D03;
+  }
+  .article_header {
+    margin: 10vh 0 3vh 0;
+  }
+  main {
+    margin: 0 10vw 5vh 10vw;
+  }
+  .odd_section, .even_section {
+    margin-top: 5vh;
+  }
+  .odd_section p {
+    margin-bottom: 5vh;
+  }
+  .odd_section h2, .even_section h2 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 2.5rem;
+    margin: 20vh 0 10vh;
+  }
+  .odd_section img, .even_section img {
+    max-width: 100%;
+  }
 }
 /* ----------  TABLET --------- */
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -241,7 +318,7 @@ h1 {
     text-shadow: 1px 1px 2px black;
     text-align: center;
     font-weight: 500;
-    margin: 15vh 20vw 0 20vw;
+    margin: 15vh 20vw 15vh 20vw;
   }
   .pages_background_text {
     color: #f5f5f5;
@@ -252,6 +329,63 @@ h1 {
     margin: 20vh 10vw 0 10vw;
   }
   
+  /* ----------  ARTICLES --------- */
+  .header_text {
+    text-align: center;
+    margin-top: 10vh;
+    color: #261D03;
+    font-size: 3rem;
+  }
+  .keywords {
+    margin: 0 25vw 0 25vw;
+    padding-bottom: 8vh;
+    text-align: center;
+    border-bottom: 1px solid #261D03;
+  }
+  .article_header {
+    margin: 15vh 0 10vh 0;
+    font-size: 3rem;
+  }
+  main {
+    margin: 0 5vw 5vh 5vw;
+  }
+  .odd_section, .even_section {
+    margin-top: 5vh;
+    overflow: hidden;
+  }
+  .odd_section p {
+    margin-bottom: 5vh;
+  }
+  .odd_section h2, .even_section h2 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 2.5rem;
+  }
+  .odd_text_container p {
+    margin-right: 2rem; 
+  }
+  .odd_section img, .even_section img {
+    max-width: 100%;
+  }
+  .odd_section_img_container {
+    width: 50%;
+    float: left;
+  }
+  .even_section_img_container {
+    width: 50%;
+    float: right;
+  }
+  .odd_text_container {
+    width: 50%;
+    float: left;
+    padding-top: 15vh;
+  }
+  .even_text_container {
+    width: 50%;
+    float: right;
+    padding-top: 15vh;
+  }
+
 }
 /* ----------  DESKTOP / LAPTOP --------- */
 @media (min-width: 1025px) and (max-width: 1280px) {
@@ -317,7 +451,7 @@ h1 {
     text-align: center;
     font-weight: 500;
     font-size: 3rem;
-    margin: 10vh 25vw 0 25vw;
+    margin: 10vh 25vw 10vh 25vw;
   }
   .pages_background_text {
     color: #f5f5f5;
@@ -326,6 +460,61 @@ h1 {
     font-weight: 600;
     font-size: 5rem;
     margin: 16vh 10vw 0 10vw;
+  }
+
+  /* ----------  ARTICLES --------- */
+  .header_text {
+    text-align: center;
+    margin-top: 10vh;
+    color: #261D03;
+    font-size: 3rem;
+  }
+  .keywords {
+    margin: 0 30vw 0 30vw;
+    padding-bottom: 8vh;
+    text-align: center;
+    border-bottom: 1px solid #261D03;
+  }
+  .article_header {
+    margin: 15vh 0 10vh 0;
+    font-size: 3rem;
+  }
+  main {
+    margin: 0 10vw 5vh 10vw;
+  }
+  .odd_section, .even_section {
+    margin-top: 5vh;
+    overflow: hidden;
+  }
+  .odd_section h2, .even_section h2 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 3.5rem;
+  }
+  .odd_text_container p {
+    margin-right: 2rem; 
+  }
+  .odd_section img, .even_section img {
+    max-width: 100%;
+  }
+  .odd_section_img_container {
+    width: 50%;
+    float: left;
+  }
+  .even_section_img_container {
+    width: 50%;
+    float: right;
+  }
+  .odd_text_container {
+    width: 50%;
+    float: left;
+    padding-top: 18vh;
+    font-size: 1.3rem;
+  }
+  .even_text_container {
+    width: 50%;
+    float: right;
+    padding-top: 18vh;
   }
   
 }
@@ -396,7 +585,7 @@ h1 {
     text-align: center;
     font-weight: 500;
     font-size: 3rem;
-    margin: 10vh 30vw 0 30vw;
+    margin: 10vh 30vw 10vh 30vw;
   }
   .pages_background_text {
     color: #f5f5f5;
@@ -405,6 +594,61 @@ h1 {
     font-weight: 600;
     font-size: 5rem;
     margin: 16vh 10vw 0 10vw;
+  }
+
+  /* ----------  ARTICLES --------- */
+  .header_text {
+    text-align: center;
+    margin-top: 10vh;
+    color: #261D03;
+    font-size: 3rem;
+  }
+  .keywords {
+    margin: 0 30vw 0 30vw;
+    padding-bottom: 8vh;
+    text-align: center;
+    border-bottom: 1px solid #261D03;
+  }
+  .article_header {
+    margin: 15vh 0 15vh 0;
+    font-size: 3rem;
+  }
+  main {
+    margin: 0 12vw 5vh 12vw;
+  }
+  .odd_section, .even_section {
+    margin-top: 5vh;
+    overflow: hidden;
+  }
+  .odd_section h2, .even_section h2 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 3.5rem;
+  }
+  .odd_text_container p {
+    margin-right: 2rem; 
+  }
+  .odd_section img, .even_section img {
+    max-width: 100%;
+  }
+  .odd_section_img_container {
+    width: 50%;
+    float: left;
+  }
+  .even_section_img_container {
+    width: 50%;
+    float: right;
+  }
+  .odd_text_container {
+    width: 50%;
+    float: left;
+    padding-top: 20vh;
+    font-size: 1.3rem;
+  }
+  .even_text_container {
+    width: 50%;
+    float: right;
+    padding-top: 20vh;
   }
   
 }
