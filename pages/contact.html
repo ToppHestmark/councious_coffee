@@ -26,5 +26,39 @@
   <div class="contact_background_container">
     <h1 class="pages_background_text">Contact us</h1>
   </div>
+  <main class="contact_article_content">
+    <h2 class="contact_article_header">Contact us</h2>
+    <section class="contact_form_section">
+      <p class="form_foretext">
+        Please use the form below to send us a message and we will reply within one business day. 
+        You can also drop us an email anytime or
+      </p>
+      <form action="/my-handling-form-page" method="post">
+        <ul>
+          <li>
+            <label for="name"></label>
+            <input type="text" id="name" name="user_name" placeholder="Fullname">
+          </li>
+          <li>
+            <label for="mail"></label>
+            <input type="email" id="mail" name="user_email" placeholder="E-mail">
+          </li>
+          <li>
+            <label for="msg"></label>
+            <textarea id="msg" name="user_message" placeholder="Message or comments"></textarea>
+          </li>
+          <li class="button">
+            <button type="submit">Send</button>
+          </li>
+         </ul>
+      </form>
+    </section>
+    <section class="contact_detail_section">
+      <h2>Phone</h2>
+      <p>+47 51 00 00 00</p>
+      <h2>E-mail</h2>
+      <p>contact@consciouscoffee.com</p>
+    </section>
+  </main>
 </body>
 </html>
