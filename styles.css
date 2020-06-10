@@ -44,6 +44,13 @@ p {
     /* Image source: url<https://unsplash.com/photos/he7QnLQRB9g>, Photo by Vladimir Proskurovskiy on Unsplash  */
 }
 
+footer {
+  font-weight: 300;
+  font-size: small;
+  text-align: center;
+}
+footer p {margin: 0;}
+
 /* ----------  MOBILE PORTRAIT --------- */
 @media (min-width: 320px) and (max-width: 480px) {
 
@@ -217,7 +224,7 @@ p {
   }
 
   .contact_detail_section {
-    margin-top: 15vh;
+    margin: 15vh 0 15vh 0;
   }
   .contact_detail_section h2 {
     font-weight: 500;
@@ -226,6 +233,10 @@ p {
   }
   .contact_detail_section p {
     margin-top: -10px;
+  }
+
+  .main_footer {
+    margin-top: 10vh;
   }
 
 }
@@ -369,6 +380,9 @@ p {
     overflow: hidden;
   }
 
+  .contact_article_content {
+    margin-bottom: 15vh;
+  }
   .contact_article_header {
     text-align: center;
     margin: 4rem 0 3rem 0;
@@ -415,6 +429,10 @@ p {
   }
   .contact_detail_section p {
     margin-top: -10px;
+  }
+
+  .main_footer {
+    margin-top: 10vh;
   }
 }
 /* ----------  TABLET --------- */
@@ -583,6 +601,9 @@ p {
     margin-left: 20vw;
   }
 
+  .contact_article_content {
+    margin-bottom: 15vh;
+  }
   .contact_article_header {
     text-align: center;
     margin: 4rem 0 3rem 0;
@@ -629,6 +650,10 @@ p {
   }
   .contact_detail_section p {
     margin-top: -10px;
+  }
+
+  .main_footer {
+    margin-top: 10vh;
   }
 
 }
@@ -807,6 +832,9 @@ p {
     font-size: 2.5rem;
   }
 
+  .contact_article_content {
+    margin-bottom: 15vh;
+  }
   .contact_form_section {
     text-align: center;
     width: 40vw;
@@ -851,6 +879,10 @@ p {
   .contact_detail_section p {
     margin-top: -10px;
     margin-bottom: 5vh;
+  }
+
+  .main_footer {
+    margin-top: 10vh;
   }
   
 }
@@ -1032,7 +1064,7 @@ p {
     font-size: 2.5rem;
   }
   .contact_article_content {
-    margin: 0 10vw 0 10vw;
+    margin: 0 10vw 15vh 10vw;
   }
   .contact_form_section {
     text-align: center;
@@ -1078,6 +1110,10 @@ p {
   .contact_detail_section p {
     margin-top: -10px;
     margin-bottom: 5vh;
+  }
+
+  .main_footer {
+    margin-top: 10vh;
   }
 
 }
