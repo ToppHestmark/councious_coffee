@@ -354,9 +354,8 @@ p {
   }
 
   .address_container {
-    margin-bottom: 4rem;
-    width: 40%;
-    margin-right: 3rem;
+    margin: 0 5px 1.5rem 5px;
+    width: 48%;
     float: left;
   }
   .address_container h2 {
