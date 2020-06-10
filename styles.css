@@ -742,7 +742,7 @@ p {
     margin: 0 12vw 5vh 12vw;
   }
   .odd_section, .even_section {
-    margin-top: 5vh;
+    margin-top: 8vh;
     overflow: hidden;
   }
   .odd_section h2, .even_section h2 {
