@@ -7,6 +7,7 @@
 .about__header h1 {
   font-weight: 600;
   font-size: 5rem;
+  text-align: center;
 }
 
 .about__main {
@@ -35,6 +36,10 @@
 }
 
 @media (max-width: 833px) {
+  .about__header h1 {
+    font-size: 4rem;
+    text-align: center;
+  }
   .about__section,
   .about__imageContainer {
     width: 75vw;

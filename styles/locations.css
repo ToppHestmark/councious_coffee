@@ -8,3 +8,53 @@
   font-weight: 600;
   font-size: 5rem;
 }
+
+.locations__subHeader {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.locations__main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.locations__main section {
+  display: flex;
+  justify-content: space-around;
+  width: 70vw;
+  margin-bottom: 60px;
+}
+
+.locations__main section p {
+  margin-bottom: -8px;
+}
+
+@media (max-width: 768px) {
+  .locations__main section {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .locations__header h1 {
+    font-size: 4rem;
+  }
+  
+
+  .locations__main section {
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .locations__addressContainer {
+    width: 80vw;
+    margin-bottom: 40px;
+  }
+}
