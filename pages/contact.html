@@ -28,40 +28,34 @@
     <h1>Contact us</h1>
   </header>
 
-  <main class="contact_article_content">
-    <h2 class="contact_article_header">Contact us</h2>
-    <section class="contact_form_section">
-      <p class="form_foretext">
+  <h2 class="contact__formHeader">Contact us</h2>
+  <main class="contact__main">
+    <div class="contact_formContainer">
+      <p class="contact__formText">
         Please use the form below to send us a message and we will reply within one business day. 
         You can also drop us an email anytime or
       </p>
-      <form action="/my-handling-form-page" method="post">
-        <ul>
-          <li>
-            <input for="name" type="text" id="name" name="user_name" placeholder="Fullname">
-          </li>
-          <li>
-            <input for="mail" type="email" id="mail" name="user_email" placeholder="E-mail">
-          </li>
-          <li>
-            <textarea for="msg" id="msg" name="user_message" placeholder="Message or comments"></textarea>
-          </li>
-          <li class="button">
-            <button type="submit">Send</button>
-          </li>
-         </ul>
+      <form>
+        <label for="fname">First Name</label>
+        <input type="text" name="firstname">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" name="lastname">
+    
+        <label for="subject">Subject</label>
+        <textarea name="subject" placeholder="Your message..."></textarea>
+    
+        <button class="contact__formButton" type="submit" value="Submit">Submit</button>
       </form>
-    </section>
-    <section class="contact_detail_section">
-      <h2>Phone</h2>
+    </div>
+
+    <div class="contact__detailsContainer">
+      <h3>Phone</h3>
       <p>+47 51 00 00 00</p>
-      <h2>E-mail</h2>
+      <h3>E-mail</h3>
       <p>contact@consciouscoffee.com</p>
-    </section>
+    </div>
   </main>
 
-  <footer>
-    <p>2020 Conscious Coffee</p>
-  </footer>
 </body>
 </html>
