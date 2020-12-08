@@ -1,47 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap');
-
-h1, h2 {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-p {
-  font-family: 'Noto Sans JP', sans-serif;
-  color: #261D03;
-}
-.image_source {
-  font-size: x-small;
-  opacity: 80%;
-  margin-top: -1px;
-}
-
-#navigation_bar {
-  background-color: #0b0b0b;
-  height: auto;
-  width: 100%;
-  text-align: center;
-  flex-direction: column;
-}
-#navigation_bar li {
-  list-style-type: none;
-  display: inline;
-}
-
-/* ----------  BACKGROUND IMAGE --------- */
-.index_background_container {
-  background-image: url("/images/clem-onojeghuo-9AEh9i-WPhI-unsplash.jpg");
-  /* Image source: url<https://unsplash.com/photos/9AEh9i-WPhI>, Photo by Clem Onojeghuo on Unsplash  */
-}
-.about_background_container {
-  background-image: url("/images/nathan-dumlao-KixfBEdyp64-unsplash.jpg");
-    /* Image source: url<https://unsplash.com/photos/KixfBEdyp64 >, Photo by Nathan Dumlao on Unsplash  */
-}
-.contact_background_container {
-  background-image: url("/images/brooke-cagle-8jp-6SjVibM-unsplash.jpg");
-    /* Image source: url<https://unsplash.com/photos/8jp-6SjVibM>, Photo by Brooke Cagle on Unsplash  */
-}
-.locations_background_container {
-  background-image: url("/images/vladimir-proskurovskiy-he7QnLQRB9g-unsplash.jpg");
-    /* Image source: url<https://unsplash.com/photos/he7QnLQRB9g>, Photo by Vladimir Proskurovskiy on Unsplash  */
-}
 
 footer {
   font-weight: 300;
@@ -54,63 +10,8 @@ footer p {margin: 0;}
 /* ----------  MOBILE PORTRAIT --------- */
 @media (min-width: 320px) and (max-width: 480px) {
 
-  /* ----------  BACKGROUND IMAGE --------- */
-  .index_background_container, .about_background_container, .contact_background_container, .locations_background_container {
-    background-position: center center;
-    position: relative;
-    height: 350px;
-  }
-  .index_background_text {
-    color: #f5f5f5;
-    text-shadow: 1px 1px 2px black;
-    text-align: center;
-    font-weight: 500;
-    margin: 10vh 10vw 10vh 10vw;
-  }
-  .pages_background_text {
-    color: #f5f5f5;
-    text-shadow: 1px 1px 2px black;
-    text-align: center;
-    font-weight: 600;
-    font-size: 3rem;
-    margin: 15vh 10vw 15vh 10vw;
-  }
-
   /* ----------  ARTICLES --------- */
-  .header_text {
-    text-align: center;
-    margin-top: 10vh;
-    color: #261D03;
-    font-size: 3rem;
-  }
-  .keywords {
-    margin: 0 10vw 0 10vw;
-    padding-bottom: 5vh;
-    text-align: center;
-    border-bottom: 1px solid #261D03;
-  }
-  .article_header {
-    margin: 10vh 0 3vh 0;
-  }
-  main {
-    margin: 0 5vw 5vh 5vw;
-  }
-  .odd_section, .even_section {
-    margin-top: 5vh;
-  }
-  .odd_section p {
-    margin-bottom: 5vh;
-  }
-  .odd_section h2, .even_section h2 {
-    text-align: center;
-    font-weight: 300;
-    font-size: 2.5rem;
-    margin: 20vh 0 10vh;
-  }
-  .odd_section img, .even_section img {
-    max-width: 100%;
-  }
-
+  
   .about_article_header {
     font-weight: 500;
     font-size: 2rem;
@@ -195,63 +96,9 @@ footer p {margin: 0;}
 /* ----------  MOBILE LANDSCAPE --------- */
 @media (min-width: 481px) and (max-width: 767px) {
   
-  /* ----------  BACKGROUND IMAGE --------- */
-  .index_background_container, .about_background_container, .contact_background_container, .locations_background_container {
-    background-position: center center;
-    position: relative;
-    height: 350px;
-  }
-  .index_background_text {
-    color: #f5f5f5;
-    text-shadow: 1px 1px 2px black;
-    text-align: center;
-    font-weight: 500;
-    margin: 10vh 15vw 10vh 15vw;
-  }
-  .pages_background_text {
-    color: #f5f5f5;
-    text-shadow: 1px 1px 2px black;
-    text-align: center;
-    font-weight: 600;
-    font-size: 3rem;
-    margin: 15vh 10vw 15vh 10vw;
-  }
   
   /* ----------  ARTICLES --------- */
-  .header_text {
-    text-align: center;
-    margin-top: 10vh;
-    color: #261D03;
-    font-size: 3rem;
-  }
-  .keywords {
-    margin: 0 15vw 0 15vw;
-    padding-bottom: 5vh;
-    text-align: center;
-    border-bottom: 1px solid #261D03;
-  }
-  .article_header {
-    margin: 10vh 0 3vh 0;
-  }
-  main {
-    margin: 0 10vw 5vh 10vw;
-  }
-  .odd_section, .even_section {
-    margin-top: 5vh;
-  }
-  .odd_section p {
-    margin-bottom: 5vh;
-  }
-  .odd_section h2, .even_section h2 {
-    text-align: center;
-    font-weight: 300;
-    font-size: 2.5rem;
-    margin: 20vh 0 10vh;
-  }
-  .odd_section img, .even_section img {
-    max-width: 100%;
-  }
-
+  
   .about_article_header {
     font-weight: 500;
     font-size: 2rem;
@@ -343,85 +190,9 @@ footer p {margin: 0;}
 /* ----------  TABLET --------- */
 @media (min-width: 768px) and (max-width: 1024px) {
   
-  /* ----------  BACKGROUND IMAGE --------- */
-  .index_background_container, .about_background_container, .contact_background_container, .locations_background_container {
-    background-position: center center;
-    position: relative;
-    height: 400px;
-  }
-  .index_background_text {
-    color: #f5f5f5;
-    text-shadow: 1px 1px 2px black;
-    text-align: center;
-    font-weight: 500;
-    margin: 15vh 20vw 15vh 20vw;
-  }
-  .pages_background_text {
-    color: #f5f5f5;
-    text-shadow: 2px 2px 5px black;
-    text-align: center;
-    font-weight: 600;
-    font-size: 4rem;
-    margin: 20vh 10vw 20vh 10vw;
-  }
   
   /* ----------  ARTICLES --------- */
-  .header_text {
-    text-align: center;
-    margin-top: 10vh;
-    color: #261D03;
-    font-size: 3rem;
-  }
-  .keywords {
-    margin: 0 25vw 0 25vw;
-    padding-bottom: 8vh;
-    text-align: center;
-    border-bottom: 1px solid #261D03;
-  }
-  .article_header {
-    margin: 15vh 0 10vh 0;
-    font-size: 3rem;
-  }
-  main {
-    margin: 0 5vw 5vh 5vw;
-  }
-  .odd_section, .even_section {
-    margin-top: 5vh;
-    overflow: hidden;
-  }
-  .odd_section p {
-    margin-bottom: 5vh;
-  }
-  .odd_section h2, .even_section h2 {
-    text-align: center;
-    font-weight: 300;
-    font-size: 2.5rem;
-  }
-  .odd_text_container p {
-    margin-right: 2rem; 
-  }
-  .odd_section img, .even_section img {
-    max-width: 100%;
-  }
-  .odd_section_img_container {
-    width: 50%;
-    float: left;
-  }
-  .even_section_img_container {
-    width: 50%;
-    float: right;
-  }
-  .odd_text_container {
-    width: 50%;
-    float: left;
-    padding-top: 15vh;
-  }
-  .even_text_container {
-    width: 50%;
-    float: right;
-    padding-top: 15vh;
-  }
-
+ 
   .about_article_header {
     font-weight: 500;
     font-size: 2rem;
@@ -520,83 +291,7 @@ footer p {margin: 0;}
 /* ----------  DESKTOP / LAPTOP --------- */
 @media (min-width: 1025px) and (max-width: 1280px) {
 
-  /* ----------  BACKGROUND IMAGE --------- */
-  .index_background_container, .about_background_container, .contact_background_container, .locations_background_container {
-    background-position: center center;
-    position: relative;
-    height: 400px;
-  }
-  .index_background_text {
-    color: #f5f5f5;
-    text-shadow: 1px 1px 2px black;
-    text-align: center;
-    font-weight: 500;
-    font-size: 3rem;
-    margin: 10vh 25vw 10vh 25vw;
-  }
-  .pages_background_text {
-    color: #f5f5f5;
-    text-shadow: 2px 2px 5px black;
-    text-align: center;
-    font-weight: 600;
-    font-size: 5rem;
-    margin: 16vh 10vw 16vh 10vw;
-  }
-
   /* ----------  ARTICLES --------- */
-  .header_text {
-    text-align: center;
-    margin-top: 10vh;
-    color: #261D03;
-    font-size: 3rem;
-  }
-  .keywords {
-    margin: 0 30vw 0 30vw;
-    padding-bottom: 8vh;
-    text-align: center;
-    border-bottom: 1px solid #261D03;
-  }
-  .article_header {
-    margin: 15vh 0 10vh 0;
-    font-size: 3rem;
-  }
-  main {
-    margin: 0 10vw 5vh 10vw;
-  }
-  .odd_section, .even_section {
-    margin-top: 5vh;
-    overflow: hidden;
-  }
-  .odd_section h2, .even_section h2 {
-    text-align: center;
-    font-weight: 300;
-    font-size: 3.5rem;
-  }
-  .odd_text_container p {
-    margin-right: 2rem; 
-  }
-  .odd_section img, .even_section img {
-    max-width: 100%;
-  }
-  .odd_section_img_container {
-    width: 50%;
-    float: left;
-  }
-  .even_section_img_container {
-    width: 50%;
-    float: right;
-  }
-  .odd_text_container {
-    width: 50%;
-    float: left;
-    padding-top: 18vh;
-    font-size: 1.3rem;
-  }
-  .even_text_container {
-    width: 50%;
-    float: right;
-    padding-top: 18vh;
-  }
 
   .about_article_header {
     font-weight: 500;
@@ -700,135 +395,8 @@ footer p {margin: 0;}
 /* ----------  DESKTOP AND ABOVE--------- */
 @media (min-width: 1281px) {
   
-  html, body {
-    height: 100%;
-  }
-
-  body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-  
-  /* ---------- LOGO --------- */
-  .logo_container_mobile_devices, .logo_container_mobile_devices img {
-    visibility: collapse;
-    height: 0;
-  }
-
-  #navigation_bar img {
-    height: 4rem;
-    margin-bottom: -15px;
-    padding: 0 2% 0 2%;
-  }
-  
-  /* ---------- NAVBAR --------- */
-  #navigation_bar ul {
-    width: 100%;
-    padding: 0;
-    height: 8vh;
-    display: inline-block;
-  }
-
-  #navigation_bar li a {
-    color: #f5f5f5;
-    font-size: 18px;
-    font-family: Helvetica;
-    text-decoration: none;
-    padding: 5px 0 10px 0;
-    margin: 3% 1% 3% 1%;
-  }
-
-  #navigation_bar li a:hover {
-    border-bottom: 5px solid #f5f5f5;
-  }
-
-  .on_this_page a {
-    border-bottom: 5px solid #f5f5f5;
-    font-weight: bold;
-  }
-
-  /* ----------  BACKGROUND IMAGE --------- */
-  .index_background_container, .about_background_container, .contact_background_container, .locations_background_container {
-    background-position: center center;
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 400px;
-  }
-  .index_background_text {
-    color: #f5f5f5;
-    text-shadow: 1px 1px 2px black;
-    text-align: center;
-    font-weight: 500;
-    font-size: 3rem;
-    margin: 10vh 30vw 10vh 30vw;
-  }
-  .pages_background_text {
-    color: #f5f5f5;
-    text-shadow: 2px 2px 5px black;
-    text-align: center;
-    font-weight: 600;
-    font-size: 5rem;
-    margin: 16vh 10vw 16vh 10vw;
-  }
 
   /* ----------  ARTICLES --------- */
-  .header_text {
-    text-align: center;
-    margin-top: 10vh;
-    color: #261D03;
-    font-size: 3rem;
-  }
-  .keywords {
-    margin: 0 30vw 0 30vw;
-    padding-bottom: 8vh;
-    text-align: center;
-    border-bottom: 1px solid #261D03;
-  }
-  .article_header {
-    margin: 15vh 0 15vh 0;
-    font-size: 3rem;
-  }
-  main {
-    margin: 0 12vw 5vh 12vw;
-  }
-  .odd_section, .even_section {
-    margin-top: 8vh;
-    overflow: hidden;
-  }
-  .odd_section h2, .even_section h2 {
-    text-align: center;
-    font-weight: 300;
-    font-size: 3.5rem;
-  }
-  .odd_text_container p {
-    margin-right: 2rem; 
-  }
-  .odd_section img, .even_section img {
-    max-width: 100%;
-  }
-  .odd_section_img_container {
-    width: 50%;
-    float: left;
-  }
-  .even_section_img_container {
-    width: 50%;
-    float: right;
-  }
-  .odd_text_container {
-    width: 50%;
-    float: left;
-    padding-top: 20vh;
-    font-size: 1.3rem;
-  }
-  .even_text_container {
-    width: 50%;
-    float: right;
-    padding-top: 20vh;
-  }
 
   .about_article_header {
     font-weight: 500;

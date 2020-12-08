@@ -1,0 +1,10 @@
+/* ####### HEADER ######### */
+.about__header {
+  background-image: url('../images/nathan-dumlao-KixfBEdyp64-unsplash.jpg');
+    /* Image source: url<https://unsplash.com/photos/KixfBEdyp64 >, Photo by Nathan Dumlao on Unsplash  */
+}
+
+.about__header h1 {
+  font-weight: 600;
+  font-size: 5rem;
+}

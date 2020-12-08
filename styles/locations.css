@@ -1,0 +1,10 @@
+/* ####### HEADER ######### */
+.locations__header {
+  background-image: url("../images/vladimir-proskurovskiy-he7QnLQRB9g-unsplash.jpg");
+    /* Image source: url<https://unsplash.com/photos/he7QnLQRB9g>, Photo by Vladimir Proskurovskiy on Unsplash  */
+}
+
+.locations__header h1 {
+  font-weight: 600;
+  font-size: 5rem;
+}

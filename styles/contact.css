@@ -1,0 +1,14 @@
+/* ####### HEADER ######### */
+.contact__header {
+  background-image: url("../images/brooke-cagle-8jp-6SjVibM-unsplash.jpg");
+    /* Image source: url<https://unsplash.com/photos/8jp-6SjVibM>, Photo by Brooke Cagle on Unsplash  */
+}
+
+.headers {
+  background-position: center top;
+}
+
+.contact__header h1 {
+  font-weight: 600;
+  font-size: 5rem;
+}
